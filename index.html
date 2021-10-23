@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FCC RWD 03 - Product Landing Page</title>
+    <script src="https://kit.fontawesome.com/17bec82fcd.js" crossorigin="anonymous"></script>
+</head>
+<header id="header">
+    <nav id="nav-bar">
+        <div class="navbar-brand">
+            <a href="#">
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                    alt="Company Logo" id="header-img">
+            </a>
+        </div>
+        <label for="toggleBtn" id="toggleBtnLabel">
+            <div class="toggle-btn-line"></div>
+            <div class="toggle-btn-line"></div>
+            <div class="toggle-btn-line"></div>
+        </label>
+        <input type="checkbox" id="toggleBtn">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+            </li>
+            <li class="nav-item">
+                <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Handcrafted, home-made masterpieces</h1>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+        <input type="submit" value="GET STARTED" id="submit">
+    </form>
+    <div class="info" id="features">
+        <div class="image">
+            <i class="fas fa-tint"></i>
+        </div>
+        <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                purchase.</p>
+        </div>
+    </div>
+    <div class="info">
+        <div class="image">
+            <i class="fas fa-truck"></i>
+        </div>
+        <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                returns if you are not satisfied.</p>
+        </div>
+    </div>
+    <div class="info">
+        <div class="image">
+            <i class="fas fa-battery-full"></i>
+        </div>
+        <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                pitch of your instrument.</p>
+        </div>
+    </div>
+    <div id="how-it-works">
+        <iframe id="video" src="https://youtu.be/y8Yv4pnO7qc">
+        </iframe>
+    </div>
+</div>
+<div class="product-container" id="pricing">
+    <div class="card">
+        <h3>TENOR TROMBONE</h3>
+        <div><strong>$600</strong></div>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum</p>
+        <a href="#" class="buy-btn">SELECT</a>
+    </div>
+    <div class="card">
+        <h3>BASS TROMBONE</h3>
+        <div><strong>$900</strong></div>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum</p>
+        <a href="#" class="buy-btn">SELECT</a>
+    </div>
+    <div class="card">
+        <h3>VALVE TROMBONE</h3>
+        <div><strong>$1200</strong></div>
+        <p>Plays similar to a Trumpet</p>
+        <p>Great for Jazz Bands</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum</p>
+        <a href="#" class="buy-btn">SELECT</a>
+    </div>
+</div>
+<footer>
+    <div>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+    </div>
+    <p>
+        Copyright 2016,Original Trombones
+    </p>
+</footer>
+
+<body>
+
+</body>
+
+</html>
